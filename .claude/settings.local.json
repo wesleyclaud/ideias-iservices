@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(netstat -ano)",
+      "Bash(taskkill /PID 29060 /F)",
+      "PowerShell(Stop-Process -Id 29060 -Force)",
+      "PowerShell(netstat -ano)",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}

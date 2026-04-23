@@ -1,0 +1,12 @@
+.tableCard { background: var(--bg-card); border-radius: var(--radius); box-shadow: var(--shadow-card); overflow: hidden; }
+.form { display: flex; flex-direction: column; gap: 16px; }
+.row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.field { display: flex; flex-direction: column; gap: 6px; }
+.field label { font-size: 13px; font-weight: 600; color: var(--text-secondary); }
+.field input, .field textarea {
+  background: var(--bg); border: 1.5px solid var(--border); border-radius: var(--radius-sm);
+  padding: 10px 12px; font-size: 14px; color: var(--text-primary); outline: none;
+  transition: border-color var(--transition); width: 100%; resize: vertical;
+}
+.field input:focus, .field textarea:focus { border-color: var(--accent); }
+.actions { display: flex; gap: 10px; justify-content: flex-end; }

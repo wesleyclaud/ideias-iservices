@@ -1,0 +1,47 @@
+# Dependências
+node_modules/
+**/node_modules/
+
+# Variáveis de ambiente
+.env
+**/.env
+!**/.env.example
+
+# Build
+dist/
+build/
+**/dist/
+**/build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+**/logs/
+
+# Cache
+.cache/
+**/.cache/
+.vite/
+**/.vite/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sequelize
+*.sqlite
+*.sqlite3
+
+# Uploads (se houver)
+uploads/
+public/uploads/
