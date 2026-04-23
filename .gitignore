@@ -8,8 +8,6 @@ node_modules/
 .env.example
 **/.env.example
 
-# Documentação
-README.md
 
 # Build
 dist/
