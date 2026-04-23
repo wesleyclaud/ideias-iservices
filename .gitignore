@@ -5,7 +5,11 @@ node_modules/
 # Variáveis de ambiente
 .env
 **/.env
-!**/.env.example
+.env.example
+**/.env.example
+
+# Documentação
+README.md
 
 # Build
 dist/
