@@ -5,7 +5,20 @@
       "Bash(taskkill /PID 29060 /F)",
       "PowerShell(Stop-Process -Id 29060 -Force)",
       "PowerShell(netstat -ano)",
-      "mcp__Claude_Preview__preview_start"
+      "mcp__Claude_Preview__preview_start",
+      "Bash(gh repo *)",
+      "PowerShell(gh --version 2>&1)",
+      "PowerShell(git config --global user.name)",
+      "PowerShell(git config --global user.email)",
+      "PowerShell(git config --list)",
+      "PowerShell(cmdkey /list)",
+      "PowerShell(Select-String \"github\" -A 3)",
+      "Bash(gh auth *)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "PowerShell(cmdkey /delete:LegacyGeneric:target=git:https://github.com)",
+      "Bash(grep -E \"\\\\.\\(env|config|secret|key|pass\\)$\")",
+      "Bash(grep -r \"cpf\\\\|\\\\\\\\d{3}\\\\\\\\.\\\\\\\\d{3}\\\\\\\\.\\\\\\\\d{3}-\\\\\\\\d{2}\" C:/Projetos/Ideias/iServices/backend/src --include=\"*.js\" -n)",
+      "PowerShell(cd \"C:\\\\Projetos\\\\Ideias\\\\iServices\"; git filter-branch --force --index-filter \"git rm --cached --ignore-unmatch README.md\" --prune-empty --tag-name-filter cat -- --all 2>&1)"
     ]
   }
 }
